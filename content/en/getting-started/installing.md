@@ -481,6 +481,17 @@ sudo eopkg install hugo
 OpenBSD provides a package for Hugo via `pkg_add`:
 
     doas pkg_add hugo
+    
+## Alpine Linux
+
+Alpine Linux provides Hugo in the "Edge" repository.
+Uncomment the folowing in your /etc/apk/repositories file: 
+
+  #http://uk.alpinelinux.org/alpine/edge/community
+
+```
+     apk add hugo
+```
 
 
 ## Upgrade Hugo
